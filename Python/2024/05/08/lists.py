@@ -32,7 +32,7 @@ for ev in range(2, 101, 2):
 print(even)
 
 #create a variable named b that points to the first list that you created
-b=lst
+b=lst v
 
 #creat a variable named joined that joins the even and odd lists using an operator
 joined=odd+even
