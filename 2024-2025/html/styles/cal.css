@@ -1,0 +1,24 @@
+section {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color:deepskyblue ;
+}
+
+button{
+    width:6rem;
+    height:1.5rem;
+    background-color: pink;
+    border-radius: 1.5rem;
+}
+#wood{
+    height:2rem;
+    width:10rem;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

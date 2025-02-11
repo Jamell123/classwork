@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles/cal.css">
     <script>
         document.addEventListener("DOMContentLoaded", (event) => {
             const button0 = document.getElementById("pull")
@@ -77,6 +78,7 @@
                 opps="div"
             })
             button14.addEventListener("click", (event) => {
+                console.log(event)
                 second = Number.parseFloat(display.value);
                 display.value = ""
                 if (opps == "add"){
@@ -98,6 +100,7 @@
 
     </script>
 <body>
+<section>
 <input id="wood" type="text"><br>
 <button id="pull" type="button">0</button>
 <button id="display" type="button">1</button>
@@ -114,5 +117,6 @@
 <button id="12" type="button">Multiply</button>
 <button id="13" type="button">Divide</button>
 <button id="14" type="button">equal</button>
+</section>
 </body>
 </html>
