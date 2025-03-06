@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        document.addEventListener("DOMContentLoaded",(et)=>{
+            const name=document.getElementById("username")
+            const checkname =document.getElementById("checkname")
+            const output = document.getElementById("output")
+
+            checkname.addEventListener("click",(event)=>{
+                output.textContent = "hi,"+ name.value+",wassup"
+            })
+        })
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<header>
+<main>
+    <Label for="username"> add your name please</Label>
+    <input id="username">
+        <button id="checkname"> Enter Name</button>
+        <p id="output"></p>
+
+</main>
+</header>
+<main></main>
+</body>
+</html>
