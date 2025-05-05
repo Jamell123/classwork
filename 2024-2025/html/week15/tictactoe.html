@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+button{
+  height:100px ;
+  width:100px ;
+  font-size: 90px;
+}
+</style>
+</head>
+<body>
+
+      <tr>tic tac toe</tr>
+      <div id="grow">
+      <button id="1"></button>
+      <button id="2"></button>
+      <button id="3"></button><br>
+      <button id="4"></button>
+      <button id="5"></button>
+      <button id="6"></button><br>
+      <button id="7"></button>
+      <button id="8"></button>
+      <button id="9"></button>
+      </div>
+      <label>
+          <script>
+            document.addEventListener("DOMContentLoaded",(ev)=> {
+              //
+              const container = document.getElementById("grow")
+              let x = "x"
+              container.addEventListener("click", (ev) => {
+                ev.target.textContent = "x"
+                if(x=="x"){
+                  x="o"
+                }else{
+                  x="x"
+                }
+              })
+            })
+
+
+
+
+          </script>
+
+
+
+
+
+
+      </label>
+
+</body>
+</html>
